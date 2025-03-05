@@ -11,7 +11,7 @@ def remove_emojis(text):
     emoji_pattern = re.compile("["
         u"\U0001F600-\U0001F64F"
         "]+", flags=re.UNICODE)
-    print("Emoji Removed Text:", emoji_pattern.sub(r'', text)
+    print("Emoji Removed Text:", emoji_pattern.sub(r'', text))
 
 def normalize(text):
     text = re.sub(r'\s+', ' ', text).strip()

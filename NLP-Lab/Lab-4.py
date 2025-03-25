@@ -24,8 +24,8 @@ if __name__ == '__main__':
     print("Reversed Bigrams")
     bigrams_r = bigrams[::-1]
 
-    for pair in bigrams:
-        print(pair[::-1])
+    for pair in bigrams_r:
+        print(pair)
 
 
 

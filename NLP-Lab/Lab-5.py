@@ -11,7 +11,6 @@ def remove_digits(string: str) -> None:
     print("Tokens without any digits:", tokens)
     print("Reconstructed String:", string)
 
-'''   \d  '''
 def count_digits(string: str) -> None:
     '''
     This function uses the r"\d" regex pattern to count all the digits in a given string.

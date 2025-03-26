@@ -29,6 +29,6 @@ def multilingual_analysis(text, lang = "en_core_web_sm"):
     return[(token.text, token.pos_) for token in doc]
 
 if __name__ == '__main__':
-    text = "Apple is looking at buying U.K. startups for $1 billion."
+    text = input("Enter the input string \n")
     print(analyze_text(text))
     visualize(text)
